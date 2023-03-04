@@ -1,7 +1,11 @@
-import Post from "./components/post";
+import PostLists from "./components/PostLists";
 
 function App() {
-  return <Post />;
+  return (
+    <main>
+      <PostLists />
+    </main>
+  );
 }
 
 export default App;
